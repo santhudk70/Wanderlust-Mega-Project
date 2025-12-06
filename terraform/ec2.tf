@@ -1,5 +1,5 @@
 resource "aws_key_pair" "deployer" {
-  key_name   = "terra-automate-key-new"
+  key_name   = "terra-automate-key-new2"
   public_key = file("C:\\Users\\Administrator\\mega-project\\Wanderlust-Mega-Project\\terraform\\terra-key.pub")
 }
 
@@ -8,7 +8,7 @@ resource "aws_default_vpc" "default" {
 }
 
 resource "aws_security_group" "allow_user_to_connect" {
-  name        = "allow TLS new"
+  name        = "allow TLS new2"
   description = "Allow user to connect"
   vpc_id      = aws_default_vpc.default.id
   ingress {
