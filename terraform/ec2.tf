@@ -68,4 +68,4 @@ resource "aws_instance" "testinstance" {
     volume_size = 30 
     volume_type = "gp3"
   }
-}
+
