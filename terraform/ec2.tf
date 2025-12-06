@@ -44,7 +44,7 @@ resource "aws_security_group" "allow_user_to_connect" {
   }
 
   tags = {
-    Name = "mysecurity"
+    Name = "mysecuritynew"
   }
 }
 
