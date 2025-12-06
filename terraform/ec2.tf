@@ -1,5 +1,5 @@
 resource "aws_key_pair" "deployer" {
-  key_name   = "terra-automate-key"
+  key_name   = "terra-automate-key-new"
   public_key = file("C:\\Users\\Administrator\\mega-project\\Wanderlust-Mega-Project\\terraform\\terra-key.pub")
 }
 
