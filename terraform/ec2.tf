@@ -48,7 +48,7 @@ resource "aws_security_group" "allow_user_to_connect" {
   }
 }
 
-resource "aws_instance" "testinstance" {
+resource "aws_instance" "testinstancenew" {
   ami                   = var.ami_id
   instance_type         = var.instance_type
   key_name              = aws_key_pair.deployer.key_name
